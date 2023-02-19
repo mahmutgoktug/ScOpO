@@ -1,0 +1,36 @@
+.navbar a img {
+    width: 100%;
+    height: 70px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.planner{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.list a img{
+    width: auto;
+    height: 200px;
+}
+
+.notes a img{
+    width: auto;
+    height: 200px;
+}
+
+.planner a img{
+    width: auto;
+    height: 200px;
+}
+
+.time a img{
+    width: auto;
+    height: 200px;
+}

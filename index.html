@@ -14,40 +14,37 @@
     <title>OneDose</title>
   </head>
   <body>
-    <div id="topNavbar" style="margin-bottom: 100px">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">
-            <img src="./images/todo-icon-5.jpg" alt="" />
-          </a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav features">
-              <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
-              <a class="nav-link" href="#">Hakkımda</a>
-            </div>
-          </div>
-        </div>
-      </nav>
+    <nav class="navbar navbar-light bg-info" style="margin-bottom: 100px;">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">
+      <img src="./images/todo-icon-5.jpg" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasNavbarLabel">OneDose</h5>
+        <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Anasayfa</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Hakkımda</a>
+          </li>
+          <li class="nav-item dropdown">
+      </div>
     </div>
+  </div>
+</nav>
 
     <div id="menu">
       <div class="container">
         <div class="row">
           <div class="col-md-6 cards list mb-5">
-            <div class="title">
-              <h3>Liste</h6>
-            </div>
             <a href="#">
               <img src="./images/114903.png" alt="" />
             </a>

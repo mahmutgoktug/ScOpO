@@ -2,9 +2,9 @@ body{
     overflow: hidden;
 }
 #main{
+    background-image: radial-gradient(rgb(238, 199, 26), rgb(238, 159, 14));
     background-size: cover;
     background-repeat: no-repeat;
-    background-image: radial-gradient(rgb(238, 199, 26), rgb(238, 159, 14));
 }
 .navbar a img {
     width: 100%;
@@ -35,6 +35,15 @@ body{
     font-family: 'Mynerve', cursive;
     color: rgb(82, 79, 79);
     font-size: 22px;
+    border: hidden;
+    margin-bottom: 20px;
+    border-radius: 100px;
+    background-color: white;
+    transition: all .5s;
+}
+.cards a h5:hover{
+    background: gray;
+    color: white;
 }
 
 .cards {
@@ -48,7 +57,8 @@ body{
     display: flex;
     justify-content: center;
     width: auto;
-    height: 200px;
+    padding-bottom: 20px;
+    height: 175px;
 }
 
 .circle{
@@ -58,9 +68,9 @@ body{
     width: 60%;
     border: hidden;
     border-radius: 40%;
-    transition: all 2s;
+    transition: all 1s;
 }
 .circle:hover{
-    background: #4caf50;
-    color: white;
+    background: #dfd87b;
+    color: black;
 }

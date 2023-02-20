@@ -1,6 +1,18 @@
+body{
+    overflow: hidden;
+}
+#main{
+    background-image: radial-gradient(rgb(238, 199, 26), rgb(238, 159, 14));
+}
 .navbar a img {
     width: 100%;
     height: 70px;
+}
+
+.container-fluid .navbar-brand img{
+    width: 100%;
+    height: 100px;
+    border-radius: 50px;
 }
 
 .firstTitle{
@@ -8,34 +20,31 @@
     font-family: 'Mynerve', cursive;
 }
 
-.list{
+.offcanvas-title{
+    font-size: 45px;
+    font-family: 'Mynerve', cursive;
+}
+
+.cards a{
+    text-decoration: none;
+}
+
+.cards a h5{
+    font-family: 'Mynerve', cursive;
+    color: white;
+    font-size: 22px;
+}
+
+.cards {
+    text-decoration: none;
     display: flex;
     justify-content: center;
     text-align: center;
 }
 
-.planner{
+.cards a img{
     display: flex;
     justify-content: center;
-    text-align: center;
-}
-
-.list a img{
-    width: auto;
-    height: 200px;
-}
-
-.notes a img{
-    width: auto;
-    height: 200px;
-}
-
-.planner a img{
-    width: auto;
-    height: 200px;
-}
-
-.time a img{
     width: auto;
     height: 200px;
 }

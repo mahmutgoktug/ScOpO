@@ -4,6 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Mynerve&display=swap" rel="stylesheet">
@@ -17,15 +18,12 @@
     <title>ScOpO</title>
   </head>
   <body>
-<div id="navbar"></div>
-    <nav class="navbar navbar-light bg-info" style="margin-bottom: 100px;">
+  <div id="main">
+    <nav class="navbar navbar-light bg-warning" style="margin-bottom: 70px;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#">
-      <img src="./images/todo-icon-5.jpg" alt="">
+      <img src="./images/logo.png" alt="">
     </a>
-    <div>
-      <h1 class="firstTitle">ScOpO</h1>
-    </div>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -47,39 +45,48 @@
     </div>
   </div>
   </nav>
-</div>
-    <div id="menu">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-6 cards list mb-5">
-            <a href="#">
-              <img src="./images/114903.png" alt="" />
-            </a>
-          </div>
-          <div class="col-md-6 cards notes mb-5">
-            <a href="#">
-              <img src="./images/indir.png" alt="" />
-            </a>
-          </div>
-          <div class="col-md-6 cards planner mt-5">
-            <a href="#">
-              <img src="./images/Calendar-PNG-Free-Download.png" alt="" />
-            </a>
-          </div>
-          <div class="col-md-6 cards time mt-5">
-            <a href="#">
-              <img src="./images/indir (1).png" alt="" />
-            </a>
-          </div>
+  <div class="menu">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 cards list mb-3" data-aos="zoom-out-right">
+          <a href="#">
+            <h5>LİSTE</h5>
+            <img src="./images/114903.png" alt="" />
+          </a>
+        </div>
+        <div class="col-md-5 cards notes mb-3" data-aos="zoom-out-down">
+          <a href="#">
+            <h5>NOTLAR</h5>
+            <img src="./images/indir.png" alt="" />
+          </a>
+        </div>
+        <div class="col-md-6 cards planner mt-5" data-aos="zoom-in-right">
+          <a href="#">
+            <h5>PLANLAYICI</h5>
+            <img src="./images/Calendar-PNG-Free-Download.png" alt="" />
+          </a>
+        </div>
+        <div class="col-md-5 cards time mt-5" data-aos="zoom-out-left">
+          <a href="#">
+            <h5>SÜRE</h5>
+            <img src="./images/indir (1).png" alt="" />
+          </a>
         </div>
       </div>
     </div>
+  </div>
+</div>
 
+    
     <script src="./main.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
       crossorigin="anonymous"
     ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

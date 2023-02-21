@@ -71,7 +71,7 @@ body{
     transition: all .5s;
 }
 .cards a h5:hover{
-    background: gray;
+    background:  #dfd87b;
     color: white;
 }
 
@@ -97,7 +97,7 @@ body{
     width: 60%;
     border: hidden;
     border-radius: 40%;
-    transition: all 1s;
+    transition: all 1.5s;
 }
 .circle:hover{
     background: #dfd87b;

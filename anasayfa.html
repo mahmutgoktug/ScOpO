@@ -25,32 +25,74 @@
     <title>ScOpO - Ana Sayfa</title>
   </head>
   <body>
-    <div id="navbar">
-      <nav class="navbar navbar-light bg-info">
-        <div class="container" style="display: flex; justify-content: center">
+    <nav class="navbar navbar-expand-lg navbar-light">
+      <div
+        class="container-fluid"
+        style="display: flex; justify-content: center"
+      >
+        <div class="menu-navbar" style="display: grid; justify-items: center">
           <a
             class="navbar-brand"
             href="#"
             style="
-              font-size: 60px;
-              letter-spacing: 30px;
+              font-size: 80px;
+              letter-spacing: 25px;
               font-family: 'Mynerve', cursive;
-              color: #646ecb;
+              color: #b793e6;
+              text-decoration: underline;
             "
+            >ScOpO</a
           >
-            ScOpO
-          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div
+              class="navbar-nav"
+              style="
+                font-size: 20px;
+                font-family: 'Mynerve', cursive;
+                letter-spacing: 10px;
+              "
+            >
+              <a class="nav-link" href="#">Home</a>
+              <a class="nav-link" href="#">Features</a>
+              <a class="nav-link" href="#">Pricing</a>
+            </div>
+          </div>
         </div>
-      </nav>
-    </div>
+      </div>
+    </nav>
 
     <div id="main">
       <div class="container">
         <div class="row">
-          <div class="col-md-4 main-logo">
-            <img src="./images/logo_transparent.png" alt="" />
-          </div>
           <div class="col-md-6"></div>
+          <div class="col-md-6">
+            <h1 class="mt-5" style="font-family: 'Shantell Sans', cursive">
+              Lorem ipsum dolor sit amet consectetur.
+            </h1>
+            <br />
+            <p class="mb-4">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
+              dolor aperiam ad mollitia, repellat dicta, incidunt debitis,
+              labore officiis placeat tempora facere voluptas vitae? Numquam!
+            </p>
+            <a
+              href="#"
+              class="btn btn-outline-danger"
+              style="text-decoration: none; border: 1px solid red"
+              >Start Today!</a
+            >
+          </div>
         </div>
       </div>
     </div>

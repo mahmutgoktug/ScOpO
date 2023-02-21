@@ -1,0 +1,17 @@
+
+.menu-navbar{
+    display: grid;
+    justify-items: center
+}
+.menu-navbar .main-title{
+    font-size: 80px;
+    letter-spacing: 25px;
+    font-family: 'Mynerve', cursive;
+    color: #6a5acd;
+    text-decoration: underline;
+    transition: 1s;
+}
+.menu-navbar .main-title:hover{
+    color: #b793e6;
+    font-size: 100px;
+}

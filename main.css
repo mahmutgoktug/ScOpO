@@ -31,3 +31,38 @@
     width: auto;
     height: 500px;
 }
+.cardPlum{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {}
+    50%  {background-color:white; left:100px; top:150px;}
+    75%  {background-color:white; left:0px; top:200px;}
+    100% {background-color:white; left:0px; top:0px;}
+  }
+
+.cardYellow{
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: cardYellow;
+    animation-duration: 4s;  
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes cardYellow {
+    0%   {background-color:white; left:0px; top:0px;}
+    25%  {}
+    50%  {background-color:white; left:0px; top:150px;}
+    75%  {}
+    100% {background-color:white; left:0px; top:0px;}
+  }

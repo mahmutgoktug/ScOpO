@@ -32,9 +32,6 @@
     height: 500px;
 }
 .cardPlum{
-    width: 100px;
-    height: 100px;
-    background-color: red;
     position: relative;
     animation-name: example;
     animation-duration: 4s;
@@ -49,9 +46,6 @@
   }
 
 .cardYellow{
-    width: 100px;
-    height: 100px;
-    background: red;
     position: relative;
     animation-name: cardYellow;
     animation-duration: 4s;  
@@ -66,3 +60,71 @@
     75%  {}
     100% {background-color:white; left:0px; top:0px;}
   }
+
+.firstLine{
+    color: green;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding: 6px;
+    position: relative;
+    animation: zoom-in-zoom-out 6s ease infinite;
+    /* animation-duration: 4s;
+    animation-iteration-count: infinite; */
+}
+.firstLine a {
+    color: green;
+}
+@keyframes zoom-in-zoom-out {
+    0% {
+      transform: scale(1, 1);
+    }
+    50% {
+      transform: scale(1.2, 1.2);
+    }
+    100% {
+      transform: scale(1, 1);
+    }
+  }
+
+.secondLine{
+    color: #6a5acd;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding: 6px;
+    position: relative;
+    animation-name: secondLine;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+.secondLine a{
+    color: #6a5acd;
+}
+@keyframes secondLine {
+    0%   {left:0px; top:0px;}
+    25%  {top:0px;}
+    50%  {top:150px;}
+    75%  {left:0px; top:150px;}
+    100% {left:0px; top:0px;}
+  }
+
+.thirdLine{
+    color:red ;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;
+    padding: 6px;
+    font-size: 17px;
+    position: relative;
+    animation-name: thirdLine;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+.thirdLine a{
+    color: red;
+}
+@keyframes thirdLine {
+    0%   {left:0px; top:0px;}
+    25%  {top:0px;}
+    50%  {top:-100px;}
+    75%  {left:0px; top:-100px;}
+    100% {left:0px; top:0px;}
+  }  

@@ -1,6 +1,6 @@
 .menu-navbar{
-    display: grid;
-    justify-items: center;
+    display: flex;
+    text-align: center;
 }
 .menu-navbar .main-title{
     font-size: 80px;

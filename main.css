@@ -79,7 +79,7 @@
       transform: scale(1, 1);
     }
     50% {
-      transform: scale(1.2, 1.2);
+      transform: scale(1.1, 1.1);
     }
     100% {
       transform: scale(1, 1);
@@ -127,4 +127,42 @@
     50%  {top:-100px;}
     75%  {left:0px; top:-100px;}
     100% {left:0px; top:0px;}
-  }  
+  } 
+
+#thirdSection{
+    width: auto;
+    height: 600px;
+    background: #0D1117;
+}
+
+.darkModeYellow{
+    margin-top: 100px;
+    position: relative;
+    animation-name: darkModeYellow;
+    animation-duration: 4s;  
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: backwards;
+}
+@keyframes darkModeYellow {
+    0%   { left:0px; top:0px;}
+    25%  {}
+    50%  {left:0px; top:150px;}
+    75%  {}
+    100% { left:0px; top:0px;}
+  }
+
+.darkModePlum{
+    margin-top: 150px;
+    position: relative;
+    animation-name: darkModePlum;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes darkModePlum {
+    0%   {left:0px; top:0px;}
+    25%  {}
+    50%  {left:50px; top:150px;}
+    75%  {left:0px; top:200px;}
+    100% {left:0px; top:0px;}
+  }

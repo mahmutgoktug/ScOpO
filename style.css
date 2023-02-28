@@ -64,13 +64,12 @@ body{
     font-family: 'Mynerve', cursive;
     color: white;
     font-size: 22px;
-    border: hidden;
     margin-bottom: 20px;
     border-radius:  80% 49% 81% 80% / 89% 71% 64% 76% ;
     transition: all .5s;
 }
 .cards a h5:hover{
-    background:  #dfd87b;
+    letter-spacing: 3px;
     color: white;
     font-size: 24px;
 }

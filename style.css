@@ -11,7 +11,10 @@ body{
     display: grid;
     text-align: left;
 }
-
+.dark{
+    background-color: #222;
+    color: #e6e6e6;
+}
 .nav-item a{
     letter-spacing: 0px;
     transition: all .4s;

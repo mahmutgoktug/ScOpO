@@ -129,7 +129,6 @@ body{
 
 header{
     padding: 2rem 1rem;
-    max-width: 800px;
     width: 100%;
     margin: 0 auto;
 }
@@ -146,24 +145,22 @@ header h1{
 }
 
 input, button{
-    appearance: none;
-    border: none;
-    outline: none;
-    background: none;
+    border-radius: 1rem;
+    border-color:#8B5Cf6;
 }
 
 #new-task-input{
     flex: 1 1 0%;
-    background-color: #6369DE;
     padding: 1rem;
-    border-radius: 1rem;
+    border: 1px solid #EEB113;
+    border-left: none;
     margin-right: 1rem;
     color: var(--light);
     font-size: 1.25rem;
 }
 
 #new-task-input::placeholder{
-    color: var(--gray);
+    color: black;
 }
 
 #new-task-submit{
@@ -187,9 +184,8 @@ input, button{
 
 main {
     flex: 1 1 0%;
-    max-width: 800px;
     width: 100%;
-    margin: 0 auto;
+    
 }
 
 .task-list {
@@ -206,7 +202,6 @@ main {
 #tasks .task {
     display: flex;
     justify-content: space-between;
-    background-color: var(--darkest);
     padding: 1rem;
     border-radius: 1rem;
     margin-bottom: 1rem;
@@ -258,4 +253,25 @@ main {
 
 .task .actions .delete {
     color: crimson;
+}
+.inputs{
+    display: flex;
+}
+.secondInput{
+    margin-left: 15px;
+}
+.dueDate{
+    width: 20%;
+    border: 1px solid ;
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+.firstContent .row .taskName{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border: 1px solid  ;
 }

@@ -154,7 +154,7 @@ input, button{
 
 #new-task-input{
     flex: 1 1 0%;
-    background-color: var(--darker);
+    background-color: #6369DE;
     padding: 1rem;
     border-radius: 1rem;
     margin-right: 1rem;

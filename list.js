@@ -9,7 +9,7 @@ window.addEventListener('load', () => {
         const task = input.value;
 
        if (!task) {
-        alert('Please fill out the task');
+        alert('Lütfen boşluğu doldurun');
         return;
        }
 

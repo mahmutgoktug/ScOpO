@@ -214,10 +214,12 @@ main {
     border: none !important; 
     font-size: 1.125rem;
     width: 100%;
+    border-radius: 0;
     padding-left: 10px;
     display: block;
     transition: 0.4s;
 }
+
 #tasks .task .content:hover{
     border: #F1F8FD;
     border-left: none;

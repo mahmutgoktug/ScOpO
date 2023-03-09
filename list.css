@@ -228,6 +228,8 @@ main {
 }
 #tasks .task .content .text:hover{
     background-color: #F1F8FD;
+    padding: 10px;
+    border-radius: 1rem;
 }
 
 #tasks .task .content .text:not(:read-only) {
@@ -262,6 +264,7 @@ main {
     border-radius: 1rem;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    transition: 0.4s all;
 }
 
 .task .actions .delete {

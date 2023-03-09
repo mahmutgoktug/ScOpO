@@ -118,6 +118,7 @@
     --light: #EEE;
     --pink: #EC4899;
     --purple: #8B5Cf6;
+    --yellow: #EEAD12;
 }
 * {
     box-sizing: border-box;
@@ -230,7 +231,7 @@ main {
 }
 
 #tasks .task .content .text:not(:read-only) {
-    color: var(--pink);
+    color: var(--yellow);
 }
 
 #task .task .actions {
@@ -293,3 +294,5 @@ main {
     margin-top: 10px;
     font-weight: 100;
 }
+
+

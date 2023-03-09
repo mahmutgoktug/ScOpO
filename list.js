@@ -65,3 +65,9 @@ window.addEventListener('load', () => {
        });
     });
 });
+
+var list = document.querySelector(".tasks");
+
+new Sortable(list,{
+  animation: 500
+})
